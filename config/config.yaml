@@ -1,0 +1,34 @@
+system:
+  db_path: /Users/huanghaoting/resource_allocation/data/workload.db
+  report_dir: /Users/huanghaoting/resource_allocation/reports
+
+logging:
+  directory: /Users/huanghaoting/resource_allocation/logs
+  level: INFO
+  max_size: 10MB
+  backup_count: 5
+
+monitoring:
+  interval: 5
+  metrics_retention: 24h
+  health_check_interval: 60  # 秒
+
+resources:
+  cpu_threshold: 80
+  memory_threshold: 85
+  scale_cooldown: 300
+
+alerts:
+  enabled: true
+  channels:
+    - type: email
+      recipients: ["admin@example.com"]
+    - type: webhook
+      url: "http://alert-service/notify"
+  thresholds:
+    critical:
+      cpu: 90
+      memory: 90
+    warning:
+      cpu: 80
+      memory: 85
