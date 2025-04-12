@@ -1,14 +1,14 @@
-# 资源分配算法实现与性能分析
+# Implementation and Performance Analysis of Resource Allocation Algorithm
 
-本项目实现了多种资源分配算法，并进行了性能对比分析。
+This project has implemented multiple resource allocation algorithms and conducted performance comparison analysis.
 
-## 主要功能
-- 传统资源分配算法实现
-- 优化版本的资源分配算法
-- 性能测试与分析
-- 可视化对比报告
+## Major function 
+- Implementation of Traditional Resource Allocation Algorithms
+- Optimized version of resource allocation algorithm
+- Performance testing and analysis
+- Visual Comparison Report
 
-## 性能改进
-- 延迟降低了58.6%
-- 资源利用率提升了74.9%
-- 故障恢复时间减少了97.2%
+## Performance improvement
+- Delay reduced by 58.6%
+- The resource utilization rate has increased by 74.9%
+- The fault recovery time has been reduced by 97.2%
